@@ -14,6 +14,7 @@ import ResizablePanel from "../components/ResizablePanel";
 import Toggle from "../components/Toggle";
 import appendNewToName from "../utils/appendNewToName";
 import downloadPhoto from "../utils/downloadPhoto";
+import Link from "next/link";
 
 // Configuration for the uploader
 const uploader = Uploader({
@@ -82,7 +83,7 @@ const Home: NextPage = () => {
 
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
-        <a
+        <Link
           href="https://youtu.be/FRQtFDDrUXQ"
           target="_blank"
           rel="noreferrer"
@@ -90,7 +91,7 @@ const Home: NextPage = () => {
         >
           Are you a developer and want to learn how I built this? Watch the{" "}
           <span className="font-bold">YouTube tutorial</span>.
-        </a>
+        </Link>
         <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-900 sm:text-6xl mb-5">
           Restore any face photo
         </h1>
