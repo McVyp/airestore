@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <title>Photo Restorer</title>
       </Head>
 
-      <Header />
+      {/* <Header /> */}
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-28 mt-20">
         {/* <Link
           href="https://twitter.com/nutlope/status/1620493265865957376"
@@ -31,12 +31,10 @@ const Home: NextPage = () => {
             <SquigglyLines />
             <span className="relative">using AI</span>
           </span>{" "}
-          for everyone.
         </h1>
 
         <p className="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
-          Have old and blurry face photos? Let our AI restore them so those
-          memories can live on. 100% free – restore your photos today.
+          Have old and blurry photos? Let AI restore them.
         </p>
         <Link
           className="bg-black rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-black/80"
